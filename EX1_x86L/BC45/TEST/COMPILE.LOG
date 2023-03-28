@@ -1,0 +1,77 @@
+MAKE Version 3.6  Copyright (c) 1992 Borland International
+
+Available memory 15346224 bytes
+
+	COPY ..\SOURCE\INCLUDES.H INCLUDES.H
+ INCLUDES.H
+   1 File(s) copied.
+	COPY ..\SOURCE\OS_CFG.H OS_CFG.H
+ OS_CFG.H
+   1 File(s) copied.
+	COPY \SOFTWARE\BLOCKS\PC\BC45\PC.H PC.H
+ PC.H
+   1 File(s) copied.
+	COPY \SOFTWARE\uCOS-II\Ix86L\BC45\OS_CPU.H OS_CPU.H
+ OS_CPU.H
+   1 File(s) copied.
+	COPY \SOFTWARE\uCOS-II\SOURCE\uCOS_II.H uCOS_II.H
+ UCOS_II.H
+   1 File(s) copied.
+	COPY \SOFTWARE\uCOS-II\Ix86L\BC45\OS_CPU_A.ASM OS_CPU_A.ASM
+ OS_CPU_A.ASM
+   1 File(s) copied.
+	C:\BC45\BIN\TASM /MX /ZI /O  \SOFTWARE\uCOS-II\Ix86L\BC45\OS_CPU_A.ASM,..\OBJ\OS_CPU_A.OBJ
+Turbo Assembler  Version 3.1  Copyright (c) 1988, 1992 Borland International
+
+Assembling file:   \SOFTWARE\uCOS-II\Ix86L\BC45\OS_CPU_A.ASM  to  ..\OBJ\OS_CPU_A.OBJ
+Error messages:    None
+Warning messages:  None
+Passes:            1
+Remaining memory:  420k
+
+	COPY \SOFTWARE\uCOS-II\Ix86L\BC45\OS_CPU_C.C OS_CPU_C.C
+ OS_CPU_C.C
+   1 File(s) copied.
+	C:\BC45\BIN\BCC -c -ml -1 -G -O -Ogemvlbpi -Z -d -n..\obj -k- -v -vi- -wpro -IC:\BC45\INCLUDE -LC:\BC45\LIB OS_CPU_C.C
+Borland C++  Version 3.1 Copyright (c) 1992 Borland International
+os_cpu_c.c:
+
+	Available memory 4098628
+	COPY \SOFTWARE\BLOCKS\PC\BC45\PC.C PC.C
+ PC.C
+   1 File(s) copied.
+	C:\BC45\BIN\BCC -c -ml -1 -G -O -Ogemvlbpi -Z -d -n..\obj -k- -v -vi- -wpro -IC:\BC45\INCLUDE -LC:\BC45\LIB PC.C
+Borland C++  Version 3.1 Copyright (c) 1992 Borland International
+pc.c:
+
+	Available memory 4095932
+	COPY ..\SOURCE\TEST.C TEST.C
+ TEST.C
+   1 File(s) copied.
+	C:\BC45\BIN\BCC -c -ml -1 -G -O -Ogemvlbpi -Z -d -n..\obj -k- -v -vi- -wpro -IC:\BC45\INCLUDE -LC:\BC45\LIB TEST.C
+Borland C++  Version 3.1 Copyright (c) 1992 Borland International
+test.c:
+Warning test.c 153: Call to function 'print_buffer' with no prototype in function TaskStartDisp
+Warning test.c 179: Call to function 'print_buffer' with no prototype in function TaskStart
+
+	Available memory 4085684
+	COPY \SOFTWARE\uCOS-II\SOURCE\uCOS_II.C uCOS_II.C
+ UCOS_II.C
+   1 File(s) copied.
+	C:\BC45\BIN\BCC -c -ml -1 -G -O -Ogemvlbpi -Z -d -n..\obj -k- -v -vi- -wpro -IC:\BC45\INCLUDE -LC:\BC45\LIB uCOS_II.C
+Borland C++  Version 3.1 Copyright (c) 1992 Borland International
+ucos_ii.c:
+
+	Available memory 4037996
+	COPY ..\SOURCE\TEST.LNK
+ TEST.LNK
+   1 File(s) copied.
+	C:\BC45\BIN\TLINK  @TEST.LNK
+Turbo Link  Version 5.1 Copyright (c) 1992 Borland International
+	COPY ..\OBJ\TEST.EXE ..\TEST\TEST.EXE
+ TEST.EXE
+   1 File(s) copied.
+	COPY ..\OBJ\TEST.MAP ..\TEST\TEST.MAP
+ TEST.MAP
+   1 File(s) copied.
+	DEL TEST.MAK
